@@ -1,0 +1,24 @@
+name: viapulsa_mobile_test
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=3.4.0 <4.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.6
+  get: 4.6.6
+  flutter: 
+    sdk: flutter
+  dio: ^5.4.3+1
+  package_info: ^2.0.2
+  shimmer: ^3.0.0
+
+dev_dependencies: 
+  flutter_lints: 4.0.0
+  flutter_test: 
+    sdk: flutter
+
+flutter: 
+  uses-material-design: true
+
